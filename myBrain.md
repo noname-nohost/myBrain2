@@ -2123,7 +2123,7 @@ python manage.py loaddata FILENAME_OUT.json
 ```
 
 To include the CSRF Token add to the html template:
-{% csrf_token %}
+{ % csrf_token % }
 
 ### Create pypi package
 
